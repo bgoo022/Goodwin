@@ -75,6 +75,27 @@
         .contact a:hover {
             text-decoration: underline;
         }
+
+        .rotating-text {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+            color: #333;
+            margin: 2rem 0;
+        }
+
+        @keyframes colorRotate {
+            0% { color: red; }
+            25% { color: blue; }
+            50% { color: green; }
+            75% { color: orange; }
+            100% { color: red; }
+        }
+
+        .rotating-text span {
+            display: inline-block;
+            animation: colorRotate 3s infinite;
+        }
     </style>
 </head>
 <body>
@@ -95,6 +116,9 @@
             <h2>Welcome to Stonybrook Wiltshires</h2>
             <p class="highlight">No shearing, no dagging, no crutching—just easy care Wiltshire sheep.</p>
             <p>We are located in Waikato, New Zealand, and specialize in breeding resilient, low-maintenance sheep ideal for sustainable farming practices.</p>
+            <div class="rotating-text">
+                <span>Your Trusted Sheep Breeder</span>
+            </div>
         </section>
 
         <section id="about">

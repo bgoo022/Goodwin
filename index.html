@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A simple static website for GitHub Pages">
-    <title>My Static Website</title>
+    <meta name="description" content="High-quality Wiltshire Sheep Breeder in Waikato, New Zealand">
+    <title>Stonybrook Wiltshires</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,9 +15,9 @@
         }
 
         header {
-            background-color: #0078D7;
+            background-color: #6c9e32;
             color: white;
-            padding: 1rem 0;
+            padding: 2rem 0;
             text-align: center;
         }
 
@@ -29,7 +29,7 @@
         nav a {
             margin: 0 1rem;
             text-decoration: none;
-            color: #0078D7;
+            color: #6c9e32;
             font-weight: bold;
         }
 
@@ -39,8 +39,12 @@
 
         main {
             padding: 2rem;
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
+        }
+
+        section {
+            margin-bottom: 2rem;
         }
 
         footer {
@@ -49,38 +53,75 @@
             background-color: #333;
             color: white;
         }
+
+        .highlight {
+            font-weight: bold;
+            color: #6c9e32;
+        }
+
+        .contact {
+            background-color: #f0f7eb;
+            padding: 1rem;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .contact a {
+            color: #6c9e32;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Static Website</h1>
+        <h1>Stonybrook Wiltshires</h1>
+        <p>Breeding High-Quality Wiltshire Sheep Since 2015</p>
     </header>
 
     <nav>
         <a href="#home">Home</a>
         <a href="#about">About</a>
+        <a href="#sheep">Our Sheep</a>
         <a href="#contact">Contact</a>
     </nav>
 
     <main>
         <section id="home">
-            <h2>Home</h2>
-            <p>This is a simple static website hosted on GitHub Pages. Feel free to explore and customize it!</p>
+            <h2>Welcome to Stonybrook Wiltshires</h2>
+            <p class="highlight">No shearing, no dagging, no crutching—just easy care Wiltshire sheep.</p>
+            <p>We are located in Waikato, New Zealand, and specialize in breeding resilient, low-maintenance sheep ideal for sustainable farming practices.</p>
         </section>
 
         <section id="about">
-            <h2>About</h2>
-            <p>This website was created to demonstrate how to host static sites on GitHub Pages. It's lightweight, responsive, and easy to use.</p>
+            <h2>About Us</h2>
+            <p>At Stonybrook Wiltshires, we take pride in breeding sheep that require minimal maintenance while thriving in various conditions. Our breeding strategy focuses on natural wool shedding, facial eczema resistance, and parasite tolerance, ensuring our sheep are both productive and cost-effective.</p>
         </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>You can contact me via email at <a href="mailto:example@example.com">example@example.com</a>.</p>
+        <section id="sheep">
+            <h2>Our Sheep</h2>
+            <p>We offer a variety of sheep for sale, including:</p>
+            <ul>
+                <li><strong>Two-tooth Rams:</strong> Available from November.</li>
+                <li><strong>Ewe and Ram Lambs:</strong> Available from mid-December.</li>
+                <li><strong>Mixed Age Ewes:</strong> Available from mid-December.</li>
+            </ul>
+            <p>Contact us to receive our latest ram catalogue and availability updates.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Email us at <a href="mailto:wiltshires@stonybrook.co.nz">wiltshires@stonybrook.co.nz</a> or call us at 123-456-7890.</p>
+            <p>Follow us on <a href="https://www.facebook.com">Facebook</a> for the latest updates.</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 My Static Website. All rights reserved.</p>
+        <p>&copy; 2015 - 2024 Stonybrook Wiltshires. All rights reserved.</p>
     </footer>
 </body>
 </html>
